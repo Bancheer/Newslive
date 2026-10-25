@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewsLive — Home</title>
+  <meta name="description" content="NewsLive — latest news, entertainment, world news, podcasts and live broadcasts.">
+  <link rel="preload" href="assets/fonts/Oswald.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-top">
+      <a href="index.html" class="logo" aria-label="NewsLive — home">
+        <img src="assets/icons/logo.svg" width="284" height="63" alt="NewsLive">
+      </a>
+      <div class="local-time" aria-label="Local time">
+        <img class="local-time__deco" src="assets/icons/clock-deco.svg" alt="">
+        <div class="local-time__box">
+          <span class="local-time__city">Katowice PL</span>
+          <span class="local-time__value"><span data-clock>06:20</span><small data-ampm>PM</small></span>
+        </div>
+      </div>
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="header-nav">
+      <nav class="main-nav" data-nav>
+        <a href="index.html" class="is-active">Home</a>
+        <a href="#">Category</a>
+        <a href="#">Blog</a>
+        <a href="#">Story</a>
+        <a href="#" class="main-nav__live">Live TV</a>
+        <a href="#">Podcast</a>
+        <a href="#">About us</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <img class="header-tools" src="assets/icons/header-icons.svg" width="137" height="21" alt="">
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO: latest / news of the day / categories ============ -->
+  <section class="container hero">
+    <aside class="hero__latest">
+      <h2 class="label">latest news</h2>
+      <article class="card">
+        <a href="#" class="media" style="--h:119px">
+          <img src="assets/img/latest-1.png" alt="" style="--l:0;--t:-13px;--w:276px;--ih:184px">
+        </a>
+        <div class="card__body">
+          <h3 class="t18"><a href="#">The final 6 ‘Game of Thrones’ episodes might feel like season</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+          <p class="text">The final 6 ‘Game of Thrones’ episodes might feel like a full season Lorem ipsum dolor sit amet, consectetur adipisicin elit.</p>
+        </div>
+      </article>
+      <article class="card">
+        <a href="#" class="media" style="--h:119px;background:#dedede">
+          <img class="blend-darken" src="assets/img/latest-2.png" alt="" style="--l:73.35px;--t:-4.41px;--w:130px;--ih:129px">
+        </a>
+        <div class="card__body">
+          <h3 class="t18"><a href="#">New Season 8 Walking Dead trailer flashes forward in time</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;07:38 AM</time>
+          <p class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
+        </div>
+      </article>
+    </aside>
+
+    <div class="hero__main">
+      <a href="#" class="media" style="--h:401px">
+        <img src="assets/img/news-of-day.png" alt="" style="--l:-50px;--t:-24px;--w:786px;--ih:450px">
+      </a>
+      <h2 class="label hero__day-label">News of the day</h2>
+      <article class="card">
+        <div class="card__body card__body--lg">
+          <h3 class="t30"><a href="#">MSNBC finishes first in primetime basic cable for first time ever</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;03:04 PM</time>
+          <p class="text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur delectus, ut aut.</p>
+        </div>
+      </article>
+    </div>
+
+    <aside class="hero__cats">
+      <h2 class="label">categories</h2>
+      <ul class="cats">
+        <li><a href="#"><span class="t18">business</span><span class="text">174 articles</span></a></li>
+        <li><a href="#"><span class="t18">entertainment</span><span class="text">83 articles</span></a></li>
+        <li><a href="#"><span class="t18">horoscope</span><span class="text">37 articles</span></a></li>
+        <li><a href="#"><span class="t18">politics</span><span class="text">172 articles</span></a></li>
+        <li><a href="#"><span class="t18">sports</span><span class="text">74 articles</span></a></li>
+        <li><a href="#"><span class="t18">technology</span><span class="text">25 articles</span></a></li>
+        <li><a href="#"><span class="t18">travel</span><span class="text">25 articles</span></a></li>
+        <li class="cats__last"><a href="#"><span class="t18">Music</span><span class="text">19 articles</span></a></li>
+      </ul>
+    </aside>
+  </section>
+
+  <!-- ============ BEST OF ENTERTAINMENT ============ -->
+  <section class="container section-ent">
+    <div class="band-head">
+      <h2 class="band-head__title">
+        <img src="assets/icons/best-of-entertainment.svg" width="600" height="52" alt="Best of entertainment">
+      </h2>
+      <a href="#" class="view-all">view all <img src="assets/icons/arrow.svg" width="29" height="19" alt=""></a>
+    </div>
+
+    <div class="ent-grid">
+      <article class="card ent-hulu">
+        <a href="#" class="media" style="--h:363px;background:#c7cccf">
+          <span class="hulu-grad hulu-grad--l"></span>
+          <img src="assets/img/hulu.png" alt="" style="--l:123px;--t:0;--w:544px;--ih:363px">
+          <span class="hulu-grad hulu-grad--r"></span>
+        </a>
+        <div class="card__body card__body--lg">
+          <h3 class="t30"><a href="#">Hulu hires Google marketing veteran Kelly Campbell as CM</a></h3>
+          <time class="date">November 3, 2023&nbsp;&nbsp;07:04 PM</time>
+          <p class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+        </div>
+      </article>
+
+      <article class="promo-girls">
+        <span class="promo-girls__q promo-girls__q--1" aria-hidden="true">‘</span>
+        <span class="promo-girls__q promo-girls__q--2" aria-hidden="true">‘</span>
+        <h3 class="promo-girls__title">Girls Trip’ already surpasses Rough Night’ in opening weekend</h3>
+        <img class="promo-girls__fig" src="assets/icons/girls-trip-figure.svg" width="229" height="297" alt="">
+        <a href="#" class="pill-btn">view list <img src="assets/icons/arrow-orange-lg.svg" width="33" height="21" alt=""></a>
+      </article>
+
+      <div class="subscribe-card subscribe-card--deco">
+        <img class="subscribe-card__deco" src="assets/icons/subscribe-deco.svg" width="115" height="103" alt="">
+        <h3 class="subscribe-card__title">subscribe</h3>
+        <p class="subscribe-card__text">Tablet’s afternoon email news digest continues to provide sharp, essential news and analysis of the unfolding crisis in the Middle East. For Tablet’s unique perspective on world events, subscribe to the daily newsletter.</p>
+        <form class="subscribe-form" data-subscribe>
+          <input type="email" name="email" placeholder="Enter your e-mail" required aria-label="E-mail">
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+
+      <article class="card ent-disney">
+        <a href="#" class="media" style="--h:200px">
+          <img src="assets/img/disney.png" alt="" style="--l:0;--t:0;--w:378px;--ih:200px">
+        </a>
+        <div class="card__body">
+          <h3 class="t18"><a href="#">Disney’s live-action Aladdin finally finds its stars</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+          <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</p>
+        </div>
+      </article>
+
+      <article class="card ent-ruth">
+        <a href="#" class="media" style="--h:200px">
+          <img src="assets/img/ruth.png" alt="" style="--l:0;--t:-227px;--w:378px;--ih:473px">
+        </a>
+        <div class="card__body">
+          <h3 class="t18"><a href="#">Ruth Bader Ginsburg optimistic ‘over the long haul’ for US</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+          <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ WORLD LATEST NEWS ============ -->
+  <section class="container section-world">
+    <div class="sec-head">
+      <h2 class="sec-head__title">world latest news</h2>
+      <a href="#" class="view-all">view all <img src="assets/icons/arrow-2.svg" width="29" height="19" alt=""></a>
+    </div>
+    <div class="world-grid">
+      <a href="#" class="fashion-card">
+        <span class="fashion-card__title">These ’90s fashion trends are making a comeback in 2017</span>
+        <span class="fashion-card__q" style="left:257px;top:0">‘</span>
+        <span class="fashion-card__q" style="left:246px;top:0">‘</span>
+        <span class="fashion-card__q" style="left:257px;top:222px">‘</span>
+        <span class="fashion-card__q" style="left:246px;top:222px">‘</span>
+        <img src="assets/img/fashion.png" alt="">
+      </a>
+      <article class="world-item">
+        <h3 class="t24"><a href="#">Kelvin Kiptum To Race 2024 Rotterdam Marathon In April this year</a></h3>
+        <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+        <p class="text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+      </article>
+      <article class="world-item">
+        <h3 class="t24"><a href="#">Mayors agree, Congress should invest in affordable housing</a></h3>
+        <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+        <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+      </article>
+      <article class="world-item world-item--gap">
+        <h3 class="t24"><a href="#">Grant Fisher Leaves Bowerman Track Club After Four Years</a></h3>
+        <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+        <p class="text">Nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TOP TRENDING (dark) ============ -->
+  <section class="trending">
+    <div class="container">
+      <div class="trending__head">
+        <h2 class="trending__title">Top Trending</h2>
+        <a href="#" class="view-all view-all--light">view all <img src="assets/icons/arrow.svg" width="29" height="19" alt=""></a>
+      </div>
+
+      <div class="trending__grid">
+        <div class="trending__left">
+          <a href="#" class="quotes-card">
+            <span class="quotes-card__title">100 Best Quotes to Keep You Motivated</span>
+            <span class="quotes-card__img"><img src="assets/img/quotes.png" alt=""></span>
+          </a>
+          <div class="news-mini-head">
+            <img src="assets/icons/news-icon.svg" width="28" height="50" alt="">
+            <h3>news</h3>
+          </div>
+          <ul class="dark-list">
+            <li><a href="#" class="t24">100 Best Quotes to Keep You Motivated</a><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></li>
+            <li><a href="#" class="t24">100 Best Quotes to Keep You Motivated</a><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></li>
+          </ul>
+        </div>
+
+        <div class="trending__right">
+          <article class="trend-main">
+            <a href="#" class="media" style="--h:282px">
+              <img src="assets/img/trending-main.png" alt="" style="--l:-1px;--t:-40px;--w:750px;--ih:422px">
+            </a>
+            <div class="trend-main__body">
+              <h3 class="t24"><a href="#">Mayors agree, Congress should invest in affordable housing</a></h3>
+              <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+              <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+            </div>
+          </article>
+          <div class="pair pair--dark">
+            <article class="mini">
+              <a href="#" class="media media--sq">
+                <img src="assets/img/trending-1.png" alt="" style="--l:-32px;--t:0;--w:218px;--ih:154px">
+              </a>
+              <div><h3 class="t24"><a href="#">Girls Trip already surpasses ‘Rough Night’ in opening weekend</a></h3><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></div>
+            </article>
+            <article class="mini">
+              <a href="#" class="media media--sq">
+                <img src="assets/img/trending-2.png" alt="" style="--l:0;--t:0;--w:154px;--ih:154px">
+              </a>
+              <div><h3 class="t24"><a href="#">Mobile Google CEO Promises 11 Daydream-compatible phones</a></h3><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INNOVATION ============ -->
+  <section class="container section-innov">
+    <div class="sec-head">
+      <h2 class="sec-head__title">innovation</h2>
+      <a href="#" class="view-all">view all <img src="assets/icons/arrow.svg" width="29" height="19" alt=""></a>
+    </div>
+    <div class="innov-grid">
+      <div class="innov-left">
+        <article class="innov-feature">
+          <a href="#" class="innov-feature__img"><img src="assets/img/innovation-main.png" alt=""></a>
+          <div class="innov-feature__body">
+            <span class="tag-outline"><img src="assets/icons/star.svg" width="12" height="12" alt="">sensation</span>
+            <div class="innov-feature__text">
+              <h3 class="t24 c-orange"><a href="#">Illinois’ financial crisis could bring the state to a halt</a></h3>
+              <time class="date date--faint">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+              <p class="text text--light">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+            <a href="#" class="btn-orange">Learn more <img src="assets/icons/arrow-sm.svg" width="21" height="14" alt=""></a>
+          </div>
+        </article>
+        <div class="pair">
+          <article class="mini">
+            <a href="#" class="media media--sq">
+              <img src="assets/img/innov-1.png" alt="" style="--l:-42px;--t:-2px;--w:238px;--ih:159px">
+            </a>
+            <div><h3 class="t24"><a href="#">Girls Trip already surpasses ‘Rough Night’ in opening weekend</a></h3><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></div>
+          </article>
+          <article class="mini">
+            <a href="#" class="media media--sq">
+              <img src="assets/img/innov-2.png" alt="" style="--l:0;--t:0;--w:154px;--ih:154px">
+            </a>
+            <div><h3 class="t24"><a href="#">Mobile Google CEO Promises 11 Daydream-compatible phones</a></h3><time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time></div>
+          </article>
+        </div>
+      </div>
+      <article class="innov-side">
+        <a href="#" class="innov-side__img"><img src="assets/img/innovation-lines.png" alt=""></a>
+        <div class="innov-side__body">
+          <h3 class="t24"><a href="#">100 Best Quotes to Keep You Motivated</a></h3>
+          <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+          <p class="text">Blogging is one of the most popular ways to communicate ideas and share content. Anyone can start a blog, but it’s especially popular with business owners. Most blogs are updated regularly with fresh content.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ LIVE NEWS ============ -->
+  <section class="container section-live">
+    <div class="band-head band-head--live">
+      <img class="band-head__dot" src="assets/icons/live-dot.svg" width="17" height="17" alt="">
+      <h2 class="band-head__title">
+        <img src="assets/icons/live-news.svg" width="250" height="52" alt="Live news">
+      </h2>
+      <a href="#" class="view-all">view all <img src="assets/icons/arrow.svg" width="29" height="19" alt=""></a>
+    </div>
+
+    <div class="live-grid">
+      <div class="live-list">
+        <article class="live-row">
+          <a href="#" class="media" style="--h:154px">
+            <img src="assets/img/live-1.png" alt="" style="--l:0;--t:-1px;--w:276px;--ih:155px">
+            <span class="live-badge"><span>live</span><span>stream</span></span>
+          </a>
+          <div class="live-row__title">
+            <h3 class="t24"><a href="#">2023 PARIs Marathon Pre-Race Show</a></h3>
+            <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+            <span class="tag-green">culture</span>
+          </div>
+          <p class="text">Blogging is one of the most popular ways to communicate ideas and share content. Anyone can start a blog, but it’s especially popular with business owners. Most blogs are updated regularly with fresh content.</p>
+        </article>
+        <article class="live-row">
+          <a href="#" class="media" style="--h:154px">
+            <img src="assets/img/live-2.png" alt="" style="--l:0;--t:-96px;--w:276px;--ih:346px">
+            <span class="live-badge"><span>live</span><span>stream</span></span>
+          </a>
+          <div class="live-row__title">
+            <h3 class="t24"><a href="#">Things to do in Barcelona This Summer</a></h3>
+            <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+            <span class="tag-green">sport</span>
+          </div>
+          <p class="text">Professional bloggers can make money from their blogs without needing to focus on advertising. Most bloggers earn income by charging for access to their blogs.</p>
+        </article>
+        <article class="live-row">
+          <a href="#" class="media" style="--h:154px">
+            <img src="assets/img/live-3.png" alt="" style="--l:-309px;--t:-235px;--w:956px;--ih:717px">
+            <span class="live-badge"><span>live</span><span>stream</span></span>
+          </a>
+          <div class="live-row__title">
+            <h3 class="t24"><a href="#">Meet The 25 Things You’ll Absolutely Love</a></h3>
+            <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+            <span class="tag-green">sport</span>
+          </div>
+          <p class="text">Blogging is one of the most popular ways to communicate ideas and share content. Anyone can start a blog, but it’s especially popular with business owners. Most blogs are updated regularly with fresh content.</p>
+        </article>
+        <article class="live-row">
+          <a href="#" class="media" style="--h:154px;background:#c1c1c1">
+            <img src="assets/img/live-4.png" alt="" style="--l:-16px;--t:0;--w:308px;--ih:154px">
+            <span class="live-badge"><span>live</span><span>stream</span></span>
+          </a>
+          <div class="live-row__title">
+            <h3 class="t24"><a href="#">You’ll Never Guess What Under the Fold</a></h3>
+            <time class="date">November 7, 2023&nbsp;&nbsp;11:04 AM</time>
+            <span class="tag-green">sport</span>
+          </div>
+          <p class="text">Your success as a blogger is largely dependent on your own efforts – whether applied toward building an audience or creating content – and applying yourself consistently is essential for both goals.</p>
+        </article>
+      </div>
+
+      <aside class="live-side">
+        <div class="subscribe-card subscribe-card--live">
+          <img class="subscribe-card__megaphone" src="assets/icons/megaphone.svg" width="123" height="115" alt="">
+          <h3 class="subscribe-card__title">subscribe</h3>
+          <p class="subscribe-card__text">Tablet’s afternoon email news digest continues to provide sharp, essential news and analysis of the unfolding crisis in the Middle East. For Tablet’s unique perspective on world events, subscribe to the daily newsletter.</p>
+          <form class="subscribe-form" data-subscribe>
+            <input type="email" name="email" placeholder="Enter your e-mail" required aria-label="E-mail">
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+
+        <div class="broadcasts">
+          <div class="broadcasts__head">
+            <h3>Upcoming broadcasts</h3>
+            <img src="assets/icons/calendar.svg" width="28" height="28" alt="">
+          </div>
+          <ul>
+            <li><span class="broadcasts__date">03/11</span><div><a href="#">Meet The 25 Things You’ll Love</a><time class="date">11:04 AM - 02:50 PM</time></div></li>
+            <li><span class="broadcasts__date">08/11</span><div><a href="#">Welcome to the new journey</a><time class="date">03:00 PM - 05:00 PM</time></div></li>
+            <li><span class="broadcasts__date">11/11</span><div><a href="#">Here’s When Next Event Will Take Place in 2023</a><time class="date">07:00 PM - 10:00 PM</time></div></li>
+            <li><span class="broadcasts__date">13/11</span><div><a href="#">5 Practical and Effective Tips</a><time class="date">10:00 AM - 12:00 AM</time></div></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ TOP NEWSCASTERS (dark) ============ -->
+  <section class="casters">
+    <div class="container">
+      <div class="casters__head">
+        <h2>Top newscasters</h2>
+        <a href="#" class="view-all view-all--light">view all <img src="assets/icons/arrow.svg" width="29" height="19" alt=""></a>
+      </div>
+
+      <div class="casters__grid">
+        <div class="casters__col">
+          <div class="directors">
+            <img class="directors__bg" src="assets/img/directors.png" alt="">
+            <p class="directors__label">Creative Directors</p>
+            <ul class="directors__names">
+              <li>Giulia Heyward</li>
+              <li>Malik Anderson</li>
+              <li>Catalina Gonella</li>
+              <li>Phil Corso</li>
+            </ul>
+          </div>
+          <hr class="dark-hr">
+          <div class="person">
+            <img class="person__img" src="assets/img/terry.png" alt="Terry Lov">
+            <h3>TERRY LOV</h3>
+            <p>Photograph, New-York</p>
+          </div>
+        </div>
+
+        <span class="vline" aria-hidden="true"></span>
+
+        <div class="casters__col">
+          <div class="person">
+            <img class="person__img" src="assets/img/jackson.png" alt="Jackson Chen">
+            <h3>jackson chen</h3>
+            <p>Columnist, Lisabon</p>
+          </div>
+          <hr class="dark-hr">
+          <ul class="artists">
+            <li><img src="assets/img/avatar-1.png" width="38" height="38" alt=""><div><b>HANNA GIUDITTA</b><span>Artist, New-York</span></div></li>
+            <li><img src="assets/img/avatar-2.png" width="38" height="38" alt=""><div><b>Estefania Fèrrara</b><span>Artist, Paris</span></div></li>
+            <li><img src="assets/img/avatar-3.png" width="38" height="38" alt=""><div><b>kiona smoth</b><span>Artist, Stockholm</span></div></li>
+            <li><img src="assets/img/avatar-4.png" width="38" height="38" alt=""><div><b>hayes madsen</b><span>Artist, Berlin</span></div></li>
+          </ul>
+        </div>
+
+        <span class="vline" aria-hidden="true"></span>
+
+        <div class="jane">
+          <img src="assets/img/jane.png" alt="Jane Cooper">
+          <h3>Jane Cooper</h3>
+          <p>Artist, Stockholm</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PARTNERS ============ -->
+  <section class="partners" aria-label="Partners">
+    <span class="p1"></span>
+    <span class="p2"></span>
+    <span class="p3"></span>
+    <span class="p4"></span>
+    <span class="p5"></span>
+    <span class="p6"></span>
+    <span class="p7"></span>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <nav class="footer__nav">
+      <a href="index.html">Home</a>
+      <a href="#">Category</a>
+      <a href="#">Blog</a>
+      <a href="#">Story</a>
+      <a href="#" class="footer__live">Live TV</a>
+      <a href="#">Podcast</a>
+      <a href="#">About us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <div class="footer__brand">
+      <img src="assets/icons/logo-light.svg" width="284" height="63" alt="NewsLive">
+      <p>We influence 20 million users and is the number one business and technology news network on the planet</p>
+    </div>
+    <div class="footer__sub">
+      <h3>subscribe</h3>
+      <form class="subscribe-form subscribe-form--dark" data-subscribe>
+        <input type="email" name="email" placeholder="Enter your e-mail" required aria-label="E-mail">
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>Copyright © <span data-year>2023</span> NewsLIVE</span>
+    <div class="footer__links"><a href="#">Privacy policy</a><a href="#">Term of Use</a><a href="#">Accessibility</a></div>
+    <div class="footer__social">
+      <a href="#" aria-label="Social 1"><img src="assets/icons/social-1.svg" width="18" height="18" alt=""></a>
+      <a href="#" aria-label="Social 2"><img src="assets/icons/social-2.svg" width="18" height="18" alt=""></a>
+      <a href="#" aria-label="Social 3"><img src="assets/icons/social-3.svg" width="18" height="12" alt=""></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
